@@ -13,7 +13,7 @@ def es_primo(numero):
 
 
 def run():
-    numero = int(input('Escribe un nÃºmero: '))
+    numero = int(input('Escribe un numero: '))
     if es_primo(numero):
         print('Es primo')
     else:
