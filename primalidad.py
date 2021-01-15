@@ -1,3 +1,5 @@
+#Compilador en línea
+# https://www.programiz.com/python-programming/online-compiler/
 
 
 #esta función reconoce el número primo con el cálculo:
