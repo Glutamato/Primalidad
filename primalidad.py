@@ -1,3 +1,12 @@
+
+
+#esta función reconoce el número primo con el cálculo:
+#recorre la secuencia de números desde el #1 al número consultado (for)
+#PLANTEA los LIMITES del recorrido e ignora para el contador
+#PLANTEA la condición de DIVISIÓN, (módulo %=0)
+#AGREGA +1 al contador por cada valor que NO ESTÉ en los valores LIMITE
+#CONSIDERA true si no hay valores divisorios entre los límites (contador ==0)
+#CONSIDERA false si hay valores divisorios entre los limites (es dividido por algún otro número)
 def es_primo(numero):
     contador = 0
 
@@ -11,7 +20,9 @@ def es_primo(numero):
     else:
         return False
 
-
+    
+#esta función hace la diferencia si es o no un numero primo
+#depende de otra función (previa) que hace el cálculo
 def run():
     numero = int(input('Escribe un numero: '))
     if es_primo(numero):
@@ -20,5 +31,6 @@ def run():
         print('No es primo')
 
 
+#esta unción inicia el programa
 if __name__ == '__main__':
     run()
