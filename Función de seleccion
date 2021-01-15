@@ -1,0 +1,9 @@
+#esta función hace la diferencia si es o no un numero primo
+#depende de otra función (previa) que hace el cálculo
+
+def run():
+    numero = int(input('Escribe un numero: '))
+    if es_primo(numero):
+        print('Es primo')
+    else:
+        print('No es primo')
